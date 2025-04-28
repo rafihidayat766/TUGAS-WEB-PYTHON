@@ -1,0 +1,9 @@
+{% extends "main_layout.html" %}
+{% block content %}
+<h1>INI ADALAH HALAMAN GALLERY</h1>
+<img width='300px' src="{{ url_for('static',filename='images/foto_almet.jpg') }}" alt="Foto Almet">
+<img width='300px' src="{{ url_for('static',filename='images/foto_jahim.jpg') }}" alt="Foto Jahim">
+<img width='300px' src="{{ url_for('static',filename='images/foto_gunung.jpg') }}" alt="Foto Gunung">
+<img width='300px' src="{{ url_for('static',filename='images/foto_temen.jpg') }}" alt="Foto Temen">
+
+{% endblock %}
